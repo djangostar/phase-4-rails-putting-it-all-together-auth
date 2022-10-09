@@ -16,7 +16,7 @@ class SessionsController < ApplicationController
     head :no_content
   end
 
-  private
+  # private 
 
   # def authorize
   #   return render json: { errors: ["Not logged in"] }, status: :unauthorized unless session.include? :user_id
